@@ -27,3 +27,75 @@ Margins, paddings, and borders.
  - Improve readability and aesthetics.
 
 Happy Coding! 💻✨
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+ ---index.html---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Welcome to CSS Styling</h1>
+    </header>
+    
+   <section>
+        <p id="intro">CSS allows us to style HTML elements beautifully.</p>
+        <img src="image.jpg" alt="Example Image" class="styled-image">
+    </section>
+    
+   <footer>
+        <p>© 2025 Web Development</p>
+   </footer>
+</body>
+</html>
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+---style.css---
+
+
+
+/* Apply styles using different selectors */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Class selector */
+.title {
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* ID selector */
+#intro {
+    font-style: italic;
+    color: #555;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Image styling */
+.styled-image {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid #333;
+    margin-top: 10px;
+}
+
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
